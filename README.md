@@ -1,11 +1,11 @@
 # FizzBuzz
 
-This is our first programming exercise in the internship bootcamp. We will write some code to play the game "FizzBuzz". The requirements for this game can be found [here](FizzBuzzSpec.md).
+This is our first programming exercise in the bootcamp. We will write some code to play the game "FizzBuzz". The requirements for this game can be found [here](FizzBuzzSpec.md).
 
 ## Setup Steps
 
 1. Fork this repo
-    - Go to [this repo's GitHub page](https://github.com/cameronmccormack/loc-interns-fizzbuzz)
+    - Go to [this repo's GitHub page](https://github.com/WendiF/nov-ns-fizzbuzz)
     - Click "Fork" in the top-right of the page - this will create a copy of this repo in *your own GitHub account*
 2. Clone (download) the repo
     - Go to your newly-created fork of the repo (on GitHub).
@@ -13,7 +13,7 @@ This is our first programming exercise in the internship bootcamp. We will write
     - Make a note of the URL. For this you can clone with either HTTPS or SSH.
     - Clone your repo into a folder by running `git clone <your-url-here>` in your terminal of choice
 
-3. "Cloning the repo" will create a folder on your computer with the files from this repo. Open this folder in VSCode.
+3. "Cloning the repo" will create a folder on your computer with the files from this repo. Open this folder in IntelliJ.
 
 4. Open a command-prompt in this same folder. Your trainer can show you how to do this, if you need any help.
 
