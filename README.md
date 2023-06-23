@@ -5,7 +5,6 @@ This is our first programming exercise in the bootcamp. We will write some code 
 ## Setup Steps
 
 1. Fork this repo
-    - Go to [this repo's GitHub page](https://github.com/WendiF/nov-ns-fizzbuzz)
     - Click "Fork" in the top-right of the page - this will create a copy of this repo in *your own GitHub account*
 2. Clone (download) the repo
     - Go to your newly-created fork of the repo (on GitHub).
