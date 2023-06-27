@@ -1,33 +1,37 @@
 // This is our main function
-function fizzbuzz_old() {
-    for (let num = 1; num < 101; num++) {
-
-        if (num % 3 == 0) {
-            if (num % 5 == 0) {
-                console.log('FizzBuzz')
-            } else {
-                console.log('Fizz')
-            }
-        }
-        else if (num % 5 == 0) {
-            console.log('Buzz')
-        }
-        else {
-            console.log(num)
-        }
-    }
-}
-
 function fizzbuzz() {
-    for (let num = 1; num < 16; num++) {
-        let fizz = '', buzz = '';
+    for (let num = 120; num < 144; num++) {
+
+        let fizz = '',
+            buzz = '',
+            bang = '',
+            bong = '',
+            fezz = '',
+            word = '',
+            reverse = false;
+
         if (num % 3 === 0) {
             fizz = 'Fizz'
         }
         if (num % 5 === 0) {
             buzz = 'Buzz'
-        } if (fizz+buzz) {
-            console.log(fizz+buzz)
+        }
+        if (num % 7 === 0) {
+            bang = 'Bang'
+        }
+        if (num % 11 === 0 && !(num % 13 === 0)) {
+            word = 'Bong'
+        } else if (num % 11 === 0 && num % 13 === 0) {
+            if (num % 17 === 0) {
+                word = bong + bang + buzz + fezz + fizz
+            } else
+        }
+
+
+
+        // print statement
+        if (word) {
+            console.log(word)
         } else {
             console.log(num)
         }
